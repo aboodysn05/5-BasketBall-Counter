@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+  <title>BasketBall Counter</title>
+</head>
+<body>
+  <div class="counter">
+    <div class="home">
+      <h1 id="team-home">HOME</h1>
+      <h3 id="team-home-score">0</h3>
+      <div class="buttons">
+        <button class="btn" id="home-btn-1" onclick="homeIncrement1()">+1</button>
+        <button class="btn" id="home-btn-2" onclick="homeIncrement2()">+2</button>
+        <button class="btn" id="home-btn-3" onclick="homeIncrement3()">+3</button>
+      </div>
+    </div>
+    <div class="guest">
+      <h1 id="team-guest">GUEST</h1>
+      <h3 id="team-guest-score">0</h3>
+      <div class="buttons">
+        <button class="btn" id="guest-btn-1" onclick="guestIncrement1()">+1</button>
+        <button class="btn" id="guest-btn-2" onclick="guestIncrement2()">+2</button>
+        <button class="btn" id="guest-btn-3" onclick="guestIncrement3()">+3</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

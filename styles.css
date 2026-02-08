@@ -1,0 +1,38 @@
+body {
+  background-color: #001D3D;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+}
+
+#team-home, #team-guest {
+  font-size: 80px;
+  color: #ffffff;
+  font-family: Verdana, sans-serif;
+}
+
+#team-guest-score, #team-home-score {
+  font-size: 200px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  background-color: #FFC300;
+  border-bottom: 4px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+}
+
+.btn {
+  background-color: #ffffff00;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 40px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+
